@@ -15,7 +15,8 @@ int main(void)
 	
 	for (q = '0'; q < '9'; q++)
 	{
-	for (r = '1'; r < '9'; r++)
+
+	for (r = q + 1; r <= '9'; r++)
 	 {
 
         for (s = r + 1; s <= '9'; s++)
